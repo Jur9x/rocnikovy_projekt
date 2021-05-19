@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>HOME | Interestings</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Stránka o zajímavách faktech.">
+  <link rel="icon" href="icon.ico">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- Mine CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+
+</head>
+<!-- Body -->
+<body>
+<!-- Click blbost -->
+  <div onclick="hideShowEverything()" id="mainimg"
+    class="justify-content-center text-center mainimg">
+    <p class="text-center justify-content-center interestings">Interestings</p>
+    <p class="text-center justify-content-center ptop5"> Klikni/klepni pro pokračování!</p>
+  </div>
+<!-- Header (cookies) -->
+  <header id="header" class="invis">
+    <div id="collapse_cookies" class="bg-warning text-center show">
+      <a href="" class="textdecnone" data-toggle="collapse"
+        data-target="#collapse_cookies">Cookies - Kliknutím souhlasíš s cookies!</a>
+    </div>
+    <div id="ABOUT"></div>
+  </header>
+<!-- Navbar -->
+  <nav id="nav" class="invis navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <span class="navbar-text text-white interestings2 mleft8">Interestings</span>
+    <button id="toggle" type="button" class="navbar-toggler mright8" data-toggle="collapse" data-target="#collapse_target" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-light bg-dark" id="collapse_target">
+      <ul class="navbar-nav ml-auto mright8 mright8 fontsize20">
+        <li class="nav-item" data-toggle="collapse" data-target="#collapse_target">
+          <a class="aodkaz nav-link text-white" href="#ABOUT"><strong>Úvod</strong></a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target="#collapse_target">
+          <a class="aodkaz nav-link text-white" href="#CONTENT"><strong>Témata</strong></a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target="#collapse_target">
+          <a class="aodkaz nav-link text-white navclose" href="#CONTACT"><strong>Kontakt</strong></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- Main -->
+  <main id="main" class="invis">
+<!-- Úvod -->
+    <div class="m-auto boxshadow maxw80 mbottom2 mtop2">
+      <div class="bg-info p-5"></div>
+      <div class="bg-info text-center p-3 xlarge">
+        <div class="xxlarge"><strong>Úvod</strong></div>
+        <div>
+          <p class="m-auto maxw70">Vítejte, na téhle stránce najdete všemožné zajímavosti o věcech z
+            celého světa, ať už o autech, smartphonech nebo také o hrách. Děkujeme za váš čas.</p>
+        </div>
+      </div>
+      <div class="bg-info p-5 text-center">
+        <p><em>Pro více informací o daném tématu, klikni/klepni na obrázek.</em></p>
+        <div id="CONTENT"></div>
+      </div>
+    </div>
+<!-- 3Contentkolonky -->
+    <div class="container-fluid row m-auto maxw80">
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section1" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content<!--Lamborghini--></strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section1">
+            <p class="p2">NO CONTENT<!--Když se řekne lamborghini, všichni si hned vybaví luxusní auta. Je těžko uvěřitelné,
+              že lamborghini tyhle auta začala vyrábět úplnou náhodou.--></p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section2" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content</strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section2">
+            <p class="p2">NO CONTENT</p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section3" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content</strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section3">
+            <p class="p2">NO CONTENT</p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- 3Contentkolonky -->
+    <div class="container-fluid row m-auto maxw80">
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section4" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content</strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section4">
+            <p class="p2">NO CONTENT</p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section5" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content</strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section5">
+            <p class="p2">NO CONTENT</p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contentkolonka -->
+      <div class="col-md colmd">
+        <div>
+          <div class="bg-secondary boxshadow borderradius1"><img
+              data-toggle="collapse" data-target="#collapse_section6" class="img-fluid borderradius1" src="src/nocontent.jpg" alt="">
+            <p class="text-center"><strong>No content</strong></p>
+          </div>
+          <div onclick="contentHide(e)" class="togglecontent m-1 collapse bg-info boxshadow borderradius1 fontsize20"
+            id="collapse_section6">
+            <p class="p2">NO CONTENT</p>
+            <p class="text-center"> <a class="aodkaz" href="">Stránky</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Čudlík -->
+    <div class="text-center">
+      <button onclick="contentHide(e)" class="p-1 text-center colorblack boxshadow mtop2 mbottom2 borderradius1 buttonhidecontent">Schovat všechny okénka</button>
+    </div>
+
+    <!-- Feedback -->
+    <div class="jumbotron m-auto boxshadow mbottom2 maxw80">
+      <div class="text-center">
+        <h1>Feedback</h1>
+        <p>Máte nějaký nápad na zlepšení stránky nebo téma, které by jste tady chtěli vidět? Napište nám na náš email a
+          my
+          váš návrh zhodnotíme! </p><a class="colorblack"
+          href="mailto:jur9x.programmer@gmail.com">E-MAIL</a>
+      </div>
+    </div>
+    <!-- End of Main -->
+  </main>
+  <!-- Footer -->
+  <footer id="footer"
+    class="invis container-fluid bg-dark text-light text-center justify-content-center ptop1">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>KONTAKT</h3>
+        <hr class="text-white">
+        <div class="m-2">
+          <div><strong>Email</strong>
+            <div><a href="mailto:jur9x.programmer@gmail.com">jur9x.programmer@gmail.com</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>ZDROJE</h3>
+        <hr class="text-white">
+        <div class="m-2">
+          <ul class="list-unstyled">
+            <li><a class="aodkaz" href="" target="_blank">www.example.com</a></li>
+            <li><a class="aodkaz" href="" target="_blank">www.example.com</a></li>
+            <li><a class="aodkaz" href="" target="_blank">www.example.com</a></li>
+            <li><a class="aodkaz" href="" target="_blank">www.example.com</a></li>
+            <li><a class="aodkaz" href="" target="_blank">www.example.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>SOCIÁLNÍ SÍTĚ</h3>
+        <hr class="text-white">
+        <div class="m-2">
+          <ul class="list-unstyled list-inline text-center">
+            <li class="aodkaz m-1 list-inline-item left1 mright"><a href=""
+                target="_blank"><i class="fa fa fa-instagram fa-3x"></i></a></li>
+            <li class="aodkaz m-1 list-inline-item left1 mright"><a href=""
+                target="_blank"><i class="fa fa fa-facebook-official fa-3x"></i></a></li>
+            <li class="aodkaz m-1 list-inline-item mleft1 mright1"><a href=""
+                target="_blank"><i class="fa fa fa-twitter-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="text-white">
+    <div id="CONTACT" class="p-3">&copy; 2021, Jiří Ryba
+    </div>
+  </footer>
+  <!-- JavaScript -->
+  <script src="js/custom.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

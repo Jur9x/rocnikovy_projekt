@@ -1,0 +1,137 @@
+.invis{
+    visibility: hidden;
+}
+
+.boxshadow{
+    box-shadow: 0 0 5px 2px rgb(180, 180, 180) !important;
+}
+
+.borderradius1{
+    border-radius: 1% !important;
+}
+
+.mainimg{
+    z-index: 1; visibility: visible ; position: fixed ; height: 100vh; width: 100vw; 
+}
+
+.interestings{
+    font-family: 'Yatra One', cursive; font-size: 70px;
+}
+
+.interestings2{
+    font-family: 'Yatra One', cursive ; font-size: 25px;
+}
+
+.mbottom2{
+    margin-bottom: 2% !important;
+}
+
+.mtop2{
+    margin-top: 2% !important;
+}
+
+.ptop1{
+    padding-top: 1% !important; 
+}
+
+.ptop5{
+    padding-top: 5% !important;
+}
+
+.mright1{
+    margin-right: 1% !important;
+}
+
+.mleft1{
+    margin-left: 1% !important;
+}
+
+.mright8{
+    margin-right: 8% !important;
+}
+
+.mleft8{
+    margin-left: 8% !important;
+}
+
+.p2{
+    padding: 2% !important;
+}
+
+.textdecnone{
+    text-decoration: none !important;
+}
+
+.fontsize20{
+    font-size: 20px !important;
+}
+
+.colmd{
+    padding: 0 !important; margin-left: 15px !important; margin-right: 15px !important; border-radius: 1% !important; margin-top: 2% !important; margin-bottom: 2% !important;
+}
+
+.maxw80{
+    max-width: 80% !important;
+}
+
+.maxw70{
+    max-width: 70% !important;
+}
+
+.xlarge{
+    font-size: x-large;
+}
+
+.xxlarge{
+    font-size: xx-large;
+}
+
+.colorblack{
+    color: black !important;
+}
+
+.colorwhite{
+    color: black !important;
+}
+
+.buttonhidecontent{
+    border: none;
+}
+
+button:hover, button:focus {
+    outline: none;
+}
+
+.back-interestings{
+    background-image: url(../src/bckidk2.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.btmpad{
+    padding-bottom: 0px;
+}
+
+ul{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.aodkaz {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.aodkaz:hover {
+    color: rgb(179, 179, 179) !important;
+    text-decoration: none !important;
+}
+
+hr{
+    max-width: 50%;
+    background-color: rgb(158, 158, 158);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
