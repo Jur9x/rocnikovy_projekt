@@ -76,6 +76,10 @@
 
 .maxw70{
     max-width: 70% !important;
+}¨
+
+.maxw50{
+    max-width: 50% !important;
 }
 
 .xlarge{
@@ -103,7 +107,7 @@ button:hover, button:focus {
 }
 
 .back-interestings{
-    background-image: url(../src/bckidk2.png);
+    background-image: url(../src/nocontent.jpg);
     background-position: fixed;
     background-repeat: no-repeat;
 }
