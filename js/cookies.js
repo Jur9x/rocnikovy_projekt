@@ -21,7 +21,11 @@
     }
 
     if (getCookie("acceptCookies")) {
-        hideShowEverything();
+        document.getElementById('mainimg').style.visibility = 'hidden';
+        document.getElementById('header').style.visibility = 'visible';
+        document.getElementById('main').style.visibility = 'visible';
+        document.getElementById('footer').style.visibility = 'visible';
+        document.getElementById('nav').style.visibility = 'visible';
     }
 
     // When clicking on the agree button, create a 1 year
@@ -67,7 +71,6 @@ function hideShowEverything() {
     document.getElementById('main').style.visibility = 'visible';
     document.getElementById('footer').style.visibility = 'visible';
     document.getElementById('nav').style.visibility = 'visible';
-    document.getElementById('calert').style.visibility = 'visible';
 }
 
 var cookieAlert = document.querySelector(".cookiealert");
