@@ -5,7 +5,16 @@ function hideShowEverything() {
     document.getElementById('main').style.visibility = 'visible';
     document.getElementById('footer').style.visibility = 'visible';
     document.getElementById('nav').style.visibility = 'visible';
+    document.getElementById('calert').style.visibility = 'visible';
 }
+
+var cookieAlert = document.querySelector(".cookiealert");
+var dontAccept = document.querySelector(".dontaccept");
+
+dontAccept.addEventListener("click", function () {
+    cookieAlert.classList.remove("show");
+    hideShowEverything();
+})
 
 //navbar close na touch/click venku
 function hidenavbar(e) {
