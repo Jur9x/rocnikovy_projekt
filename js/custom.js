@@ -1,5 +1,5 @@
 //show všeho na začátku stránky
-function hideShowEverything() {
+/*function hideShowEverything() {
     document.getElementById('mainimg').style.visibility = 'hidden';
     document.getElementById('header').style.visibility = 'visible';
     document.getElementById('main').style.visibility = 'visible';
@@ -37,4 +37,4 @@ function contentHide(e) {
     }
 }
 
-document.addEventListener("click", contentHide);
+document.addEventListener("click", contentHide); */
