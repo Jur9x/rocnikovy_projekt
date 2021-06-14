@@ -25,3 +25,19 @@
 .cookiealert .acceptcookies .dontaccept{
     vertical-align: baseline;
 }
+
+@media only screen and (max-width: 1200px) {
+.cookiealert{
+    width: 65%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.cookiealert{
+    width: 80%;
+}
+}
+
+.alert-dismissible{
+    padding: 0 !important;
+}

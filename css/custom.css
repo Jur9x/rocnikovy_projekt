@@ -38,6 +38,7 @@
     padding-top: 5% !important;
 }
 
+
 .mright1{
     margin-right: 1% !important;
 }
@@ -80,7 +81,7 @@
 
 .maxw70{
     max-width: 70% !important;
-}¨
+}
 
 .maxw50{
     max-width: 50% !important;
@@ -125,6 +126,10 @@ ul{
     margin-bottom: 0 !important;
 }
 
+a{
+    color: #00ddff !important;
+}
+
 .aodkaz {
     color: white !important;
     text-decoration: none !important;
@@ -159,4 +164,50 @@ tr{
 td{
     border: 2px solid black;
     padding: 5px;
+}
+
+.odkazy ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fontsize20{
+        font-size: 18px !important;
+    }
+    .fontsize15{
+        font-size: 13px !important;
+    }
+    .maxw80{
+        max-width: 85% !important;
+    }
+    
+    .maxw70{
+        max-width: 80% !important;
+    }
+    
+    .maxw50{
+        max-width: 65% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fontsize20{
+        font-size: 16px !important;
+    }
+    .fontsize15{
+        font-size: 10px !important;
+    }
+    .maxw80{
+        max-width: 95% !important;
+    }
+    
+    .maxw70{
+        max-width: 85% !important;
+    }
+    
+    .maxw50{
+        max-width: 95% !important;
+    }
 }
